@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 141, in agent
+    apply_agent_actions(unit_to_tiles, player,resources, actions)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 75, in apply_agent_actions
+    for key, val in units_to_tiles.items():
+RuntimeError: dictionary keys changed during iteration

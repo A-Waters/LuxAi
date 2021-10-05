@@ -1,0 +1,13 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 243, in agent
+    apply_unit_actions(unit_to_tiles_one, player,opponent,resources, actions, game_state.map)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 151, in apply_unit_actions
+    unit_id, resource_tile = get_new_tile(units_to_tiles, key, player,resources)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 102, in get_new_tile
+    sorted(resources[type],key=sort_resources)
+TypeError: '<' not supported between instances of 'CityTile' and 'CityTile'

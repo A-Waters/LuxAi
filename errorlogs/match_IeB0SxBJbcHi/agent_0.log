@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/simple/main.py", line 3, in <module>
+    from agent import agent
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/simple/agent.py", line 13
+    open(logfile_name,"W") as f
+                           ^
+SyntaxError: invalid syntax

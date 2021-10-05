@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 199, in agent
+    closest_resource_tile = get_closest_resource(wood_tiles,player.units[0],player, game_state.map)
+TypeError: get_closest_resource() takes 3 positional arguments but 4 were given

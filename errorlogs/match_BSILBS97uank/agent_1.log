@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 78, in agent
+    if cell.resource.type == constants.RESOURCE_TYPES.WOOD:
+AttributeError: module 'lux.constants' has no attribute 'RESOURCE_TYPES'

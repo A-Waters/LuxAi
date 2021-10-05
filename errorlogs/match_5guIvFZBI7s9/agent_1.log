@@ -1,0 +1,13 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 173, in agent
+    unit_to_tiles = apply_agent_actions(unit_to_tiles, player,resources, actions)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 107, in apply_agent_actions
+    unit_id, resource_tile = get_new_tile(units_to_tiles, key, player,resources)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 67, in get_new_tile
+    if resource_cell.resource.ammount > 500:
+AttributeError: 'Resource' object has no attribute 'ammount'

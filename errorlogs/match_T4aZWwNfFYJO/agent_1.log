@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 158, in agent
+    apply_agent_actions(unit_to_tiles, player,resources, actions)
+  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/updated/agent.py", line 104, in apply_agent_actions
+    actions.append(unit.move(unit.pos.direction_to(get_lowest_city(player).pos)))
+AttributeError: 'City' object has no attribute 'pos'
