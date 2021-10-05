@@ -1,9 +1,0 @@
-=== Agent Install Log ===
-=== Agent Compile Log ===
-=== Agent Error Log ===
-Traceback (most recent call last):
-  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/simple/main.py", line 32, in <module>
-    actions = agent(observation, None)
-  File "/home/alex/Documents/programming/lux/Lux-Design-2021/kits/python/simple/agent.py", line 76, in agent
-    closest_resource_tile = get_closest_resource(resource_tiles,unit,player)
-NameError: name 'get_closest_resource' is not defined
