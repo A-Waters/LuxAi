@@ -196,7 +196,7 @@ def agent(observation, configuration):
     opponent = game_state.players[(observation.player + 1) % 2]
     width, height = game_state.map.width, game_state.map.height
 
-    # test123
+    
     resources : list[list] = []
 
     wood_tiles: list[Cell] = []
